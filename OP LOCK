@@ -4,7 +4,7 @@
 getgenv().Prediction = 0.15038
 getgenv().AimPart = "HumanoidRootPart"
 getgenv().Key = "Touch"
-getgenv().DisableKey = "P"
+getgenv().DisableKey = "C"
 
 getgenv().FOV = true
 getgenv().ShowFOV = false
