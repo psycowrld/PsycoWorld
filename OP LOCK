@@ -1,4 +1,4 @@
---.gg/locks runs you
+--PsycoWorld runs you
 --Made by PsycoWorld
 
 getgenv().Prediction = 0.15038
@@ -36,16 +36,16 @@ local SelectedDisableKey = getgenv().DisableKey
 
 function Notify(tx)
     SG:SetCore("SendNotification", {
-        Title = "Cam Lock Enabled | .gg/locks",
+        Title = "PsycoWorld | PsycoAim",
         Text = tx,
-        Duration = 5
+        Duration = 20
     })
 end
 
 --// Check if aimlock is loaded
 
 if getgenv().Loaded == true then
-    Notify("Aimlock is already loaded!")
+    Notify("PsycoWorld is already loaded!")
     return
 end
 
